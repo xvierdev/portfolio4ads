@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de contato com formulário fictício de mensagem.">
     <title>Contato</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
@@ -19,14 +20,30 @@
         </ul>
     </nav>
 
-    <section class="container">
-        <form action="">
-            <p><label for="name">Nome: </label><input type="text" id="name"></p>
-            <p><label for="email">Email:</label><input type="text" id="email"></p>
-            <p><textarea name="message" id="msgbox"></textarea></p>
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
+    <main class="container">
+        <section class="content-block">
+            <h1>Contato</h1>
+            <p>
+                Envie uma mensagem pelo formulário abaixo. Este formulário é fictício e foi criado apenas para a
+                atividade prática de HTML e CSS.
+            </p>
+        </section>
+
+        <section class="contato">
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+                <label for="msgbox">Mensagem:</label>
+                <textarea name="message" id="msgbox" placeholder="Digite sua mensagem" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
     
 </body>
-</html
+</html>
