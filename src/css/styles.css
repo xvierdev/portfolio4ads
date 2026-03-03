@@ -200,23 +200,17 @@ input[type="submit"]:hover {
     color: var(--nav-active);
 }
 
-.media-card img,
-video,
-audio {
-    width: 100%;
-    max-width: 100%;
-}
-
-.media-card img,
-video {
+.profile-image img {
     border-radius: var(--radius-md);
-    border: 1px solid var(--surface-border);
-    box-shadow: var(--shadow-soft);
+    width: 30%;
+    min-width: 120px;
+    display: block;
+    margin: 0 auto;
 }
-
-.media-card figcaption {
+.profile-image figcaption {
+    text-align: center;
     margin-top: 8px;
-    font-size: 0.95rem;
+    font-style: italic;
 }
 
 input[type="text"]:focus,
