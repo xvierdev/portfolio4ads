@@ -1,3 +1,6 @@
+.git
 docs/
+Dockerfile
+CHANGELOG.md
 LICENSE
 README.md
